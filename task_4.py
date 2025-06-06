@@ -4,7 +4,7 @@ import seaborn as sns
 data = pd.read_csv(r"C:\Users\ANJALI DUBEY\Downloads\archive\twitter_training.csv")
 print(data.head())
 col_names = ['Id', 'Entity', 'Emotion', 'Detail']
-df = pd.read_csv(r"C:\Users\ANJALI DUBEY\Downloads\archive\twitter_training.csv", names=col_names)
+df = pd.read_csv(r"archive\twitter_training.csv", names=col_names) #copy the path of your csv files
 
 print(df.head())
 print(df.shape)
